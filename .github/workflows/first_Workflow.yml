@@ -1,0 +1,9 @@
+name: fist_workflow
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: fiststep
+      run: echo"Hello WOrkd!"
+  
