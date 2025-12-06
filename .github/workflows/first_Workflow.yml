@@ -5,5 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: fiststep
-      run: echo "Hello WOrkd!"
+      run: |
+          echo "Hello WOrkd!"
+          echo "How are you"
   
